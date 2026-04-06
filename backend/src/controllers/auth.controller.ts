@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { z } from 'zod';
 import { registerUser, loginUser } from '../services/auth.service';
+import { AuthRequest } from '../middleware/auth.middleware';
 
 const registerSchema = z.object({
   email: z.string().email(),
