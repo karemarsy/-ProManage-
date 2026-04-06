@@ -1,6 +1,6 @@
 # ProManage — Senior Developer Assignment
 
-A production-ready Project Management web application built with Angular v20+, Node.js, Express, Prisma, and PostgreSQL.
+A Project Management web application built with Angular v20+, Node.js, Express, Prisma, and PostgreSQL.
 
 ---
 
