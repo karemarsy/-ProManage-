@@ -1,5 +1,5 @@
 import prisma from '../utils/prisma';
-import { TaskStatus, Priority } from '@prisma/client';
+import { TaskStatus, Priority } from '@prisma/client/edge';
 
 interface TaskInput {
   title: string;
