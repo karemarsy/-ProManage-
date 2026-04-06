@@ -57,5 +57,5 @@ export const logout = (_req: Request, res: Response): void => {
 };
 
 export const getMe = async (req: Request, res: Response): Promise<void> => {
-  res.status(200).json({ user: (req as any).user });
+  res.status(200).json({ user: (req as AuthRequest).user });
 };
