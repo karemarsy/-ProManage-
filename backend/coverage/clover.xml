@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1775514407917" clover="3.2.0">
-  <project timestamp="1775514407917" name="All files">
-    <metrics statements="187" coveredstatements="173" conditionals="32" coveredconditionals="30" methods="38" coveredmethods="35" elements="257" coveredelements="238" complexity="0" loc="187" ncloc="187" packages="4" files="11" classes="11"/>
+<coverage generated="1775545193931" clover="3.2.0">
+  <project timestamp="1775545193931" name="All files">
+    <metrics statements="184" coveredstatements="170" conditionals="32" coveredconditionals="30" methods="38" coveredmethods="35" elements="254" coveredelements="235" complexity="0" loc="184" ncloc="184" packages="4" files="11" classes="11"/>
     <package name="controllers">
       <metrics statements="98" coveredstatements="84" conditionals="4" coveredconditionals="4" methods="17" coveredmethods="14"/>
       <file name="auth.controller.ts" path="/Users/arsene/Projects/promanage-senior-assignment/backend/src/controllers/auth.controller.ts">
@@ -211,7 +211,7 @@
       </file>
     </package>
     <package name="utils">
-      <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="jwt.ts" path="/Users/arsene/Projects/promanage-senior-assignment/backend/src/utils/jwt.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
@@ -223,15 +223,12 @@
         <line num="17" count="2" type="stmt"/>
       </file>
       <file name="prisma.ts" path="/Users/arsene/Projects/promanage-senior-assignment/backend/src/utils/prisma.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
       </file>
     </package>
   </project>

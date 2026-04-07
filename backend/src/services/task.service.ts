@@ -1,7 +1,5 @@
 import prisma from '../utils/prisma';
-
-type TaskStatus = 'TODO' | 'IN_PROGRESS' | 'REVIEW' | 'DONE';
-type Priority = 'LOW' | 'MEDIUM' | 'HIGH';
+import { TaskStatus, Priority } from '@prisma/client';
 
 interface TaskInput {
   title: string;
